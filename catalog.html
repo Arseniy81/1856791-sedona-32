@@ -69,11 +69,11 @@
 						<legend>Тип жилья:</legend>
 
   						<input type="radio" id="hotel" name="contact" value="Гостиница" checked>
-  							<label for="Hotel">Гостиница</label>
+  							<label for="hotel">Гостиница</label>
   						<input type="radio" id="motel" name="contact" value="Мотель">
-  							<label for="Motel">Мотель</label>
+  							<label for="motel">Мотель</label>
   						<input type="radio" id="apartments" name="contact" value="Апартаменты">
-  							<label for="Apartments">Апартаменты</label>
+  							<label for="apartments">Апартаменты</label>
 						</fieldset>
 					</div>
 					
@@ -188,7 +188,7 @@
 			</div>
 
 			<div class="abode">
-				<div></div><img src="" width="" height="" alt="GreenTree Inn"></div>
+				<div><img src="" width="" height="" alt="GreenTree Inn"></div>
 				<div class="information">
 					<h2>GreenTree Inn</h2>
 					<span class="adobe-name">Гостиница</span>
@@ -237,9 +237,12 @@
 			  <form>
 				  <fieldset>
 			<legend>Гостиниц на странице:</legend>
-
-			<input type="number" id="number-hotels" name="number-hotels"
-					 min="1" max="4" value="4">
+						<select name="hotel-number" id="hotel-number">
+							<option value="4">4</option>
+							<option value="3">3</option>
+							<option value="2">2</option>
+							<option value="1">1</option>
+		  				</select>
 					</fieldset>
 				</form>
 		  </section>
