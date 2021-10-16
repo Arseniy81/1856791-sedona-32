@@ -1,0 +1,491 @@
+@font-face {
+	font-family: "PT Sans";
+	font-style: normal;
+	font-weight: 400;
+
+	src: url("fonts/pt-sans-regular.woff2") format("woff2");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "PT Sans";
+	font-style: normal;
+	font-weight: 700;
+
+	src: url("fonts/pt-sans-bold.woff2") format("woff2");
+	font-display: swap;
+}
+
+body {
+	font-family: "PT Sans", sans-serif;
+	font-size: 18px;
+	line-height: 21px;
+	color: #333333;
+	background-color: #E5E5E5;
+}
+
+.button {
+	font-family: inherit;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: normal;
+	text-align: center;
+	color: #ffffff;
+	background-color: #000000;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.page-header {
+	color: #000000;
+	background: #FFFFFF;
+}
+
+.navigation-link {
+	font-family: "PT Sans", sans-serif;
+	font-size: 20px;
+	line-height: 26px;
+	font-weight: 700;
+	text-align: center;
+	color: #000000;
+	background-color: #ffffff;
+	text-decoration: none;
+}
+
+a.button-navi {
+	background: #756257;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 21px;
+ }
+
+.logo-sedona-town {
+	color: #ffffff;
+	background-color: #83B3D3;
+}
+
+.page-footer {
+	font-family: "PT Sans", sans-serif;
+	font-size: 40px;
+	line-height: 40px;
+	color: #FFFFFF;
+	background: #FFFFFF;
+}
+
+.main-index {
+	color: #333333;
+	background-color: #E5E5E5;
+}
+
+.logo-main{
+	width: 1200px;
+   height: 485px;
+}
+
+.logo-decor{
+	width: 1200px;
+	height: 57px;
+	margin: 0 auto;
+}
+
+.sity-main {
+	width: 1200px;
+	height: 282px;
+	background: #FFFFFF;
+	margin: auto;
+}
+
+.sity-text {
+	text-align: center;
+}
+
+.logo-sedona-town {
+	text-align: center;
+}
+
+.advantages-item {
+	text-align: center;
+}
+
+.advantages-title {
+	font-family: "PT Sans", sans-serif;
+	font-size: 24px;
+	line-height: 28px;
+	text-transform: uppercase;
+}
+
+.bridge-dev {
+	text-align: center;
+}
+
+.advantages-item {
+	text-align: center;
+}
+
+.interested {
+	text-align: center;
+}
+
+.newsletter {
+	text-align: center;
+}
+
+.interested-in {
+	font-family: "PT Sans", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 36px;
+	color: #000000;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.interested {
+	width: 1200px;
+	height: 417px;
+	background: #FFFFFF;
+	margin: auto;
+}
+
+.logo-sedona-town {
+	display: flex;
+	max-width: 1200px;
+	margin: 0 auto;
+	background-color: #83B3D3;
+	font-size: 18px;
+	font-style: normal;
+	color: #333333;
+	line-height: 1.4em;
+	letter-spacing: 0em;
+}
+
+.sedona-town {
+	display: flex;
+	margin: auto;
+	height: 384px;
+}
+
+.cont-text {
+	font-family: "PT Sans", sans-serif;
+	font-style: normal;
+	color: #ffffff;
+	margin: auto;
+	font-weight: normal;
+	font-size: 18px;
+	font-weight: 21px;
+	text-align: center;
+}
+
+.cont-text h3{
+	font-family: "PT Sans", sans-serif;
+	margin-bottom: 30px;
+	font-size: 24px;
+	font-weight: bold;
+	font-style: normal;
+	color: #ffffff;
+	text-align: center;
+}
+
+.devil-bridge {
+	display: flex;
+	max-width: 1200px;
+	margin: 0 auto;
+	background-color: #83B3D3;
+
+	font-size: 18px;
+	font-style: normal;
+	color: #333333;
+	line-height: 1.4em;
+	letter-spacing: 0em;
+}
+
+.bridge-dev {
+	display: flex;
+	margin: auto;
+	height: 384px;
+}
+
+
+
+.advantages-list {
+	display: flex;
+	margin: auto;
+	width: 1200px;
+	height: 384px;
+}
+
+.button-hotelsearch {
+	font-family: "PT Sans", sans-serif;
+   border: none;
+	font-size: 20px;
+	line-height: 26px;
+	text-transform: uppercase;
+   color: #ffffff;
+	font-style: normal;
+	font-weight: bold;
+   width: 625px;
+	height: 55px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+	background-color: #756257;
+	border-radius: 10px;
+}
+
+.footer-contacts-address-phone {
+	font-family: "PT Sans", sans-serif;
+	font-size: 40px;
+	color: #000000;
+	text-decoration: none;
+	font-style: normal;
+}
+
+.main-catalog {
+	font-family: "PT Sans", sans-serif;
+	font-size: 18px;
+	line-height: 21px;
+	color: #000000;
+	background-color: #ffffff;
+}
+
+/*Работа с каталого*/
+
+.inner-header-title {
+	font-family: "PT Sans", sans-serif;
+	font-size: 60px;
+	line-height: 78px; 
+}
+
+.navigation-kat {
+	font-family: "PT Sans", sans-serif;
+	font-size: 16px;
+	line-height: 21px; 
+}
+
+.text-m {
+	font-family: "PT Sans", sans-serif;
+	font-size: 20px;
+	line-height: 26px; 
+}
+
+.fieldset {
+	font-family: "PT Sans", sans-serif;
+	font-size: 18px;
+	line-height: 23px; 
+}
+
+.cotrols-up {
+	background: #83B3D3;
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 21px;
+	width: 160px;
+	height: 48px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.sorting {
+	font-family: "PT Sans", sans-serif;
+	font-size: 30px;
+	line-height: 39px;
+	color: #000000;
+	font-weight: bold;
+	text-transform: uppercase;     
+}
+
+.button-controls {
+	color: #000000;
+	background-color: #ffffff;
+}
+
+.visually-hidden {
+	background-color: #E5E5E5;
+}
+
+h2 {
+	font-family: PT Sans, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+	font-size: 24px;
+	line-height: 31px;
+}
+
+.information {
+	font-family: "PT Sans", sans-serif;
+	font-size: 20px;
+	line-height: 26px;
+	color: #333333; 
+}
+
+.rating {
+	font-family: "PT Sans", sans-serif;
+	background-color: #F2F2F2;
+   border: none;
+   color: #333333;
+   width: 160px;
+	height: 37px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+}
+
+.buttons {
+	font-family: "PT Sans", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 21px;
+	text-transform: uppercase;
+}
+
+.buttons {
+	font-family: "PT Sans", sans-serif;
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: bold;
+}
+
+.more-details {
+	background-color: #756257;
+   border: none;
+   color: #ffffff;
+   width: 151px;
+	height: 37px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+}
+
+.more-favorites {
+	background-color: #83B3D3;
+   border: none;
+   color: #ffffff;
+   width: 160px;
+	height: 37px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+}
+
+.rating-result span {
+	padding: 0;
+	font-size: 18px;
+}
+.rating-result > span:before {
+	content: '★';
+}
+.rating-result > span.active {
+	color: #83B3D3;
+}
+
+.button-show-more {
+	font-family: "PT Sans", sans-serif;
+   border: none;
+	font-size: 20px;
+	line-height: 26px;
+   color: #ffffff;
+	text-transform: uppercase;
+	font-style: normal;
+	font-weight: bold;
+   width: 625px;
+	height: 55px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+	background-color: #83B3D3;
+	border-radius: 4px;
+}
+
+.page-mail-title {
+	font-family: "PT Sans", sans-serif;
+	font-size: 30px;
+	line-height: 36px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.mail-title{
+	font-family: "PT Sans", sans-serif;
+	font-size: 22px;
+	line-height: 26px;
+	text-align: center;
+	color: #333333;
+}
+
+.field {
+	font-family: "PT Sans", sans-serif;
+	background: #F2F2F2;
+	width: 600px;
+	height: 60px;
+	font-size: 18px;
+	line-height: 26px;
+	color: #000000;
+	font-style: normal;
+}
+
+.newsletter-button {
+	font-family: "PT Sans", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 26px;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	width: 200px;
+	height: 60px;
+	background-color: #f1f1f1;
+	background: #83B3D3;
+}
+
+.btn {
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 26px;
+	color: #FFFFFF;
+	border: none;
+	outline: none;
+	padding: 15px 20px;
+	background-color: #83B3D3;
+	
+	cursor: pointer;
+ }
+
+ .active, .btn:hover {
+	background-color: #F2F2F2;
+	color: #000000;
+ }
+
+ .hotels-page {
+	font-family: "PT Sans", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 23px;
+	color: #333333;
+ }
+
+ #hotel-number {
+	font-family: "PT Sans", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 23px;
+	width: 160px;
+	height: 48px;
+	color: #000000;
+	border: 2px solid #E6E6E6;
+	box-sizing: border-box;
+	border-radius: 4px;
+ }
