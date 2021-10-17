@@ -41,6 +41,11 @@ body {
 	background: #FFFFFF;
 }
 
+.icon-logo {
+	width: 138px;
+	height: 70px;
+}
+
 .navigation-link {
 	font-family: "PT Sans", sans-serif;
 	font-size: 20px;
@@ -50,6 +55,32 @@ body {
 	color: #000000;
 	background-color: #ffffff;
 	text-decoration: none;
+}
+.main-logo {
+	color: #FFFFFF;
+	background-color: #E5E5E5;
+ 	background-image: url("../images/index-background.jpg");
+	width: 1200px;
+	height: 485px;
+	margin: auto;
+}
+
+.logo-welcome {
+	width: 458px;
+	height: 352px;
+	
+}
+
+.text-align {
+	text-align: center;
+	padding-top: 17.3px;
+
+}
+
+.logo-decor{
+	text-align: center;
+	width: 1200px;
+	height: 57px;
 }
 
 a.button-navi {
@@ -74,30 +105,62 @@ a.button-navi {
 	background: #FFFFFF;
 }
 
-.main-index {
-	color: #333333;
-	background-color: #E5E5E5;
-}
-
-.logo-main{
-	width: 1200px;
-   height: 485px;
-}
-
-.logo-decor{
-	width: 1200px;
-	height: 57px;
-	margin: 0 auto;
-}
-
-.sity-main {
+.town-main {
 	width: 1200px;
 	height: 282px;
 	background: #FFFFFF;
 	margin: auto;
+	
 }
 
-.sity-text {
+h1 {
+	font-family: "PT Sans", sans-serif;
+	font-style: normal;
+	font-size: 60px;
+	line-height: 78px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: "PT Sans", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 36px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h3{
+	font-family: "PT Sans", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.text-u {
+	font-family: "PT Sans", sans-serif;
+	font-size: 30px;
+	line-height: 36px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.text-p {
+	font-family: "PT Sans", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	color: #333333;
+	font-size: 22px;
+	line-height: 36px;
 	text-align: center;
 }
 
@@ -130,17 +193,6 @@ a.button-navi {
 
 .newsletter {
 	text-align: center;
-}
-
-.interested-in {
-	font-family: "PT Sans", sans-serif;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 30px;
-	line-height: 36px;
-	color: #000000;
-	text-align: center;
-	text-transform: uppercase;
 }
 
 .interested {
@@ -176,16 +228,6 @@ a.button-navi {
 	font-weight: normal;
 	font-size: 18px;
 	font-weight: 21px;
-	text-align: center;
-}
-
-.cont-text h3{
-	font-family: "PT Sans", sans-serif;
-	margin-bottom: 30px;
-	font-size: 24px;
-	font-weight: bold;
-	font-style: normal;
-	color: #ffffff;
 	text-align: center;
 }
 
@@ -235,12 +277,46 @@ a.button-navi {
 	border-radius: 10px;
 }
 
-.footer-contacts-address-phone {
+.container-newsletter {
+	color: #FFFFFF;
+	background-color: #E5E5E5;
+ 	background-image: url("../images/background.jpg");
+	width: 1200px;
+	height: 408px;
+	margin: auto;
+}
+
+.mailing-letter {
+	text-align: center;
+}
+
+.mailing-title {
 	font-family: "PT Sans", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.mailing-p {
+	font-family: "PT Sans", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	color: #FFFFFF;
+	font-size: 22px;
+	line-height: 26px;
+	text-align: center;
+}
+
+.footer-phone {
+	font-family: "PT Sans", sans-serif;
+	font-style: normal;
+	font-weight: normal;
 	font-size: 40px;
+	line-height: 40px;
 	color: #000000;
 	text-decoration: none;
-	font-style: normal;
 }
 
 .main-catalog {
@@ -253,16 +329,31 @@ a.button-navi {
 
 /*Работа с каталого*/
 
+.selection-block {
+	color: #FFFFFF;
+	background-color: #E5E5E5;
+ 	background-image: url("../images/background.jpg");
+	width: 1200px;
+	height: 408px;
+	margin: auto;
+}
+
 .inner-header-title {
 	font-family: "PT Sans", sans-serif;
 	font-size: 60px;
-	line-height: 78px; 
+	line-height: 78px;
+	color: #FFFFFF;
+	font-style: normal;
+	font-weight: bold; 
 }
 
-.navigation-kat {
+.navigation-items {
 	font-family: "PT Sans", sans-serif;
 	font-size: 16px;
-	line-height: 21px; 
+	line-height: 21px;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none
 }
 
 .text-m {
@@ -304,15 +395,6 @@ a.button-navi {
 
 .visually-hidden {
 	background-color: #E5E5E5;
-}
-
-h2 {
-	font-family: PT Sans, sans-serif;
-	font-style: normal;
-	font-weight: bold;
-	color: #000000;
-	font-size: 24px;
-	line-height: 31px;
 }
 
 .information {
