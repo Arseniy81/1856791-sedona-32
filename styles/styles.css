@@ -17,11 +17,24 @@
 }
 
 body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
 	font-family: "PT Sans", sans-serif;
 	font-size: 18px;
 	line-height: 21px;
 	color: #333333;
 	background-color: #E5E5E5;
+}
+
+html {
+	background-color: #F2F2F2;
+}
+
+.page-body {
+	width: 1200px;
+	margin: 0 auto;
+	background: #FFFFFF;
 }
 
 .button {
@@ -41,9 +54,16 @@ body {
 	background: #FFFFFF;
 }
 
-.icon-logo {
-	width: 138px;
-	height: 70px;
+.navigation {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.navigation-list {
+	margin: 0;
+	padding: 0;
 }
 
 .navigation-link {
@@ -56,29 +76,30 @@ body {
 	background-color: #ffffff;
 	text-decoration: none;
 }
-.main-logo {
+
+.main-welcom {
+	display: grid;
+	grid-template-columns:repeat(2, 1fr);
 	color: #FFFFFF;
 	background-color: #E5E5E5;
+	text-align: center;
  	background-image: url("../images/index-background.jpg");
 	width: 1200px;
 	height: 485px;
 	margin: auto;
+
 }
 
 .logo-welcome {
+	padding: 35px;
 	width: 458px;
 	height: 352px;
-	
 }
 
-.text-align {
-	
-	text-align: center;
-	padding-top: 38px;
-
+.grid-line {
+	width: 1200px;
+	height: 57px;
 }
-
-
 
 a.button-navi {
 	background: #756257;
@@ -96,6 +117,10 @@ a.button-navi {
 
 .page-footer {
 	font-family: "PT Sans", sans-serif;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
 	font-size: 40px;
 	line-height: 40px;
 	color: #FFFFFF;
@@ -103,10 +128,11 @@ a.button-navi {
 }
 
 .town-main {
-	width: 1200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	height: 282px;
 	background: #FFFFFF;
-	margin: auto;
 	
 }
 
@@ -176,39 +202,24 @@ h3{
 	text-transform: uppercase;
 }
 
-.bridge-dev {
-	text-align: center;
-}
-
-.advantages-item {
-	text-align: center;
-}
-
 .interested {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
 	text-align: center;
+	height: 417px;
+	background: #FFFFFF;
 }
 
 .newsletter {
 	text-align: center;
 }
 
-.interested {
-	width: 1200px;
-	height: 417px;
-	background: #FFFFFF;
-	margin: auto;
-}
-
 .logo-sedona-town {
 	display: flex;
 	max-width: 1200px;
-	margin: 0 auto;
 	background-color: #83B3D3;
-	font-size: 18px;
-	font-style: normal;
-	color: #333333;
-	line-height: 1.4em;
-	letter-spacing: 0em;
 }
 
 .sedona-town {
@@ -231,14 +242,7 @@ h3{
 .devil-bridge {
 	display: flex;
 	max-width: 1200px;
-	margin: 0 auto;
 	background-color: #83B3D3;
-
-	font-size: 18px;
-	font-style: normal;
-	color: #333333;
-	line-height: 1.4em;
-	letter-spacing: 0em;
 }
 
 .bridge-dev {
@@ -247,31 +251,79 @@ h3{
 	height: 384px;
 }
 
+.cont-H3 {
+	padding-right: 60px;
+	padding-left: 60px;
+}
 
+.recommendations-block {
+	text-align: center;
+	
+}
 
 .advantages-list {
 	display: flex;
-	margin: auto;
-	width: 1200px;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.block-itemP {
+	width: 400px;
+	height: 384px;
+	background-color: rgba(131, 179, 211, 0.12);
+}
+
+.block-item {
+	width: 400px;
 	height: 384px;
 }
 
-.button-hotelsearch {
+.advantages-item {
 	font-family: "PT Sans", sans-serif;
-   border: none;
+	font-style: normal;
+	color: #000000;
+	margin-top: 25%;
+}
+
+.advantages {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.advantages-description {
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.advantages-title {
+	padding-right: 90px;
+	padding-left: 90px;
+}
+
+.block-itemA {
+	
+	width: 400px;
+	height: 384px;
+	background: rgba(131, 179, 211, 0.2);
+}
+
+
+.butt-search {
+	font-family: "PT Sans", sans-serif;
+	background: #756257;
+	border-radius: 10px;
 	font-size: 20px;
 	line-height: 26px;
-	text-transform: uppercase;
-   color: #ffffff;
-	font-style: normal;
 	font-weight: bold;
-   width: 625px;
-	height: 55px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-	background-color: #756257;
-	border-radius: 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 575px;
+	height: 60px;
+	display: block;
+	text-align: center;
+	line-height: 60px;
+	
 }
 
 .container-newsletter {
@@ -280,12 +332,18 @@ h3{
  	background-image: url("../images/background.jpg");
 	width: 1200px;
 	height: 408px;
-	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .mailing-letter {
+	
 	text-align: center;
 }
+
 
 .mailing-title {
 	font-family: "PT Sans", sans-serif;
@@ -324,56 +382,54 @@ h3{
 	background-color: #ffffff;
 }
 
-/*Работа с каталого*/
+/*---------------Работа с каталого--------------------*/
 
 .selection-block {
-	color: #FFFFFF;
-	background-color: #E5E5E5;
  	background-image: url("../images/background.jpg");
-	width: 1200px;
+	color: #FFFFFF;
 	height: 408px;
-	margin: auto;
+}
+
+.block-rtx {
+	display: flex;
+	justify-content: space-around;
 }
 
 .inner-header-title {
-	font-family: "PT Sans", sans-serif;
-	font-size: 60px;
-	line-height: 78px;
-	color: #FFFFFF;
-	font-style: normal;
-	font-weight: bold; 
+	padding-top: 35px;
+	text-indent: 71px;
+}
+
+.navigation-it {
+	display: flex;
+	text-indent: 25px;
+	
 }
 
 .navigation-items {
-	font-family: "PT Sans", sans-serif;
+	padding: 10px;
 	font-size: 16px;
-	line-height: 21px;
 	font-style: normal;
 	font-weight: normal;
-	text-decoration: none
-}
-
-.text-m {
-	font-family: "PT Sans", sans-serif;
-	font-size: 20px;
-	line-height: 26px; 
-}
-
-.fieldset {
-	font-family: "PT Sans", sans-serif;
-	font-size: 18px;
-	line-height: 23px; 
-}
-
-.cotrols-up {
-	background: #83B3D3;
 	color: #ffffff;
-	font-size: 16px;
-	line-height: 21px;
-	width: 160px;
-	height: 48px;
-	text-transform: uppercase;
 	text-decoration: none;
+}
+
+.block-post {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 44px;
+	
+}
+
+ .abode {
+	 display: flex;
+	 margin-top: 44px;
+ }
+
+
+.butt-control-block {
+	text-align: center;
 }
 
 .sorting {
@@ -386,7 +442,6 @@ h3{
 }
 
 .button-controls {
-	color: #000000;
 	background-color: #ffffff;
 }
 
@@ -427,6 +482,7 @@ h3{
 	font-size: 16px;
 	line-height: 21px;
 	font-weight: bold;
+	
 }
 
 .more-details {
@@ -478,6 +534,16 @@ h3{
    display: inline-block;
 	background-color: #83B3D3;
 	border-radius: 4px;
+	margin-top: 33px;
+	line-height: 60px;
+}
+
+.newsletter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 89px;
+	text-align: center;
 }
 
 .page-mail-title {
@@ -498,6 +564,7 @@ h3{
 	text-align: center;
 	color: #333333;
 }
+
 
 .field {
 	font-family: "PT Sans", sans-serif;
@@ -568,3 +635,5 @@ h3{
 	box-sizing: border-box;
 	border-radius: 4px;
  }
+
+ 
