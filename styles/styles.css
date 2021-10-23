@@ -17,9 +17,6 @@
 }
 
 body {
-	margin: 0;
-	display: flex;
-	flex-direction: column;
 	font-family: "PT Sans", sans-serif;
 	font-size: 18px;
 	line-height: 21px;
@@ -57,13 +54,11 @@ html {
 .navigation {
 	display: flex;
 	justify-content: space-around;
-	align-items: center;
-	flex-wrap: wrap;
 }
 
 .navigation-list {
+	padding: 0; 
 	margin: 0;
-	padding: 0;
 }
 
 .navigation-link {
@@ -383,6 +378,10 @@ h3{
 }
 
 /*---------------Работа с каталого--------------------*/
+
+.main-catalog {
+	
+}
 
 .selection-block {
  	background-image: url("../images/background.jpg");
