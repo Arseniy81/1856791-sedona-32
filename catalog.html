@@ -46,6 +46,7 @@
 						<ul class="navigation-it">
 							<li class="navigation-items">
 								<a class="vis-hidden" href="#">Главная</a>
+								<a class="to-main" href="#"><svg width="5" height="8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.8 3.6 1 .2C.8 0 .4 0 .1.2-.2.4-.1.8.1 1l3.3 3L.2 7c-.2.2-.2.6 0 .8 0 .1.3.2.4.2.1 0 .3-.1.4-.2l3.8-3.4c.3-.2.3-.6 0-.8Z" fill="#fff"/></svg></a>
 							</li>
 							<li class="navigation-items">
 								<a class="navi-kat" href="#">Гостиницы</a>
@@ -96,10 +97,14 @@
 					<div class="cost-filter">
 						<div class="filter-block">
 						<legend class="text-m">Стоимость, ₽:</legend>
-						<div class="price-control">
-							<input class="text-m" type="text" value="0     от">
-							<input class="text-m" type="text" value="9000      до">
-						</div>
+						<ul class="price-control">
+							<li class="block-li">
+								<span>0 от</span>
+							</li>
+							<li class="block-li">
+								<span>9000 до</span>
+							</li>
+						</ul>
 						<button class="range-toggle toggle-min" type="button">
 							<span class="visually-hidden">Изменить минимальную цену.</span>
 						 </button>
@@ -224,15 +229,14 @@
 			</div>
 
 			<div>
-				<p>
+				<p class="butt-sh-more">
 					<a  href="#" class="button-show-more" alt="Загрузить ещё" width="625" height="55px">Загрузить ещё</a>
 				</p>
 			</div>
 		</div>
 
-			<section>
-				<p>
-				<div id="myDIV">
+			<section class="block-r">
+				<div class="myDIV">
 					<button class="btn">1</button>
 					<button class="btn">2</button>
 					<button class="btn">3</button>
@@ -240,10 +244,8 @@
 					<button class="btn">...</button>
 					<button class="btn">10</button>
 				 </div>
-				</p>
-		  </section>
-		  <section class="number-hotels">
-			  <form>
+		  
+			  <form class="number-hotels">
 				  <fieldset>
 			<legend class="hotels-page">Гостиниц на странице:</legend>
 						<select name="hotel-number" id="hotel-number">

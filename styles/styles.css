@@ -259,7 +259,9 @@ h3{
 .advantages-list {
 	display: flex;
 	align-items: center;
-	margin: 0 auto;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 .block-itemP {
@@ -380,7 +382,7 @@ h3{
 /*---------------Работа с каталого--------------------*/
 
 .main-catalog {
-	
+	margin: 0;
 }
 
 .selection-block {
@@ -401,8 +403,11 @@ h3{
 
 .navigation-it {
 	display: flex;
-	text-indent: 25px;
-	
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	color: #ffffff;
 }
 
 .navigation-items {
@@ -429,6 +434,47 @@ h3{
 
 .butt-control-block {
 	text-align: center;
+}
+
+.price-control {
+	display: block;
+	overflow: hidden;
+	list-style: none;
+	padding: 3px 0 0 3px;
+	
+}
+
+.price-control li {
+	box-sizing: border-box;
+	text-align: center;
+	padding: 10px;
+	float: left;
+	margin: -3px -3px 0 0;    
+	width: 205px;
+	height: 45px;
+	border: 2px solid #ffffff;
+}
+
+.menu-hotel {
+	margin-top: 42px;
+	border: 2px solid red;
+}
+
+.butt-sh-more {
+	text-align: center;
+}
+
+.block-r {
+	margin-top: 31px;
+	margin-left: 72px;
+	margin-right: 72px;
+	margin-bottom: 89px;
+ 	display: flex;
+	justify-content: space-between;
+}
+
+.myDIV {
+
 }
 
 .sorting {
@@ -541,7 +587,6 @@ h3{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 89px;
 	text-align: center;
 }
 
