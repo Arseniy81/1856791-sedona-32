@@ -3,7 +3,7 @@
 	font-style: normal;
 	font-weight: 400;
 
-	src: url("fonts/pt-sans-regular.woff2") format("woff2");
+	src: url("../fonts/ptsans-400.woff2") format("woff2");
 	font-display: swap;
 }
 
@@ -12,7 +12,7 @@
 	font-style: normal;
 	font-weight: 700;
 
-	src: url("fonts/pt-sans-bold.woff2") format("woff2");
+	src: url("../fonts/ptsans-700.woff2") format("woff2");
 	font-display: swap;
 }
 
@@ -28,10 +28,22 @@ html {
 	background-color: #F2F2F2;
 }
 
+.wrap {
+	padding-left: 71px;
+	padding-right: 71px;
+}
+
 .page-body {
 	width: 1200px;
 	margin: 0 auto;
 	background: #FFFFFF;
+}
+
+.logo-icon {
+	transform: translate(-50%, 0);
+	position: absolute;
+	left: 50%;
+	top: 0;
 }
 
 .button {
@@ -54,28 +66,22 @@ html {
 .navigation {
 	display: flex;
 	justify-content: space-between;
-	margin-left: 71px;
-	margin-right: 71px;
+	
 }
 
 .navigation-list {
 	display: flex;
 	justify-content: space-between;
 	list-style: none;
-	align-items: center;
-	width: 309px;
-	padding: 0; 
-	margin: 0;
+	margin-left: 0;
+	padding: 0;
 }
 
 .navigation-listP {
 	display: flex;
 	justify-content: space-between;
 	list-style: none;
-	align-items: center;
-	width: 250px;
-	padding: 0; 
-	margin: 0;
+
 }
 
 .navigation-link {
@@ -93,7 +99,7 @@ html {
 	display: grid;
 	grid-template-columns:repeat(2, 1fr);
 	color: #FFFFFF;
-	background-color: #E5E5E5;
+	background-color: #9D8981;
 	text-align: center;
  	background-image: url("../images/index-background.jpg");
 	width: 1200px;
@@ -110,7 +116,7 @@ html {
 
 .grid-line {
 	width: 1200px;
-	height: 57px;
+	height: 56px;
 }
 
 a.button-navi {
@@ -141,7 +147,6 @@ h1 {
 	font-style: normal;
 	font-size: 60px;
 	line-height: 78px;
-	font-style: normal;
 	font-weight: bold;
 }
 
@@ -330,7 +335,7 @@ h3{
 
 .container-newsletter {
 	color: #FFFFFF;
-	background-color: #E5E5E5;
+	background-color: #3A5863;
  	background-image: url("../images/background.jpg");
 	width: 1200px;
 	height: 408px;
@@ -342,7 +347,6 @@ h3{
 }
 
 .mailing-letter {
-	
 	text-align: center;
 }
 
@@ -377,26 +381,21 @@ h3{
 }
 
 .page-footer {
-	margin: 0;
-	margin-left: 72px;
-	margin-right: 103px;
 	font-family: "PT Sans", sans-serif;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	flex-wrap: wrap;
-	font-size: 40px;
-	line-height: 40px;
 	color: #FFFFFF;
 	background: #FFFFFF;
+	padding-top: 49px;
+	padding-bottom: 53px;
 }
 
 .footer-social-list {
  display: flex;
  justify-content: space-between;
- width: 120px;
- margin-bottom: 55px;
-
+ padding-left: 0%;
+ list-style: none;
 }
 
 /*---------------Работа с каталого--------------------*/
@@ -412,7 +411,14 @@ h3{
 .selection-block {
  	background-image: url("../images/background.jpg");
 	color: #FFFFFF;
+	background-color: #3A5863;
 	height: 408px;
+	margin-bottom: 50px;
+}
+
+.inner-header-title {
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .block-rtx {
@@ -420,10 +426,6 @@ h3{
 	justify-content: space-around;
 }
 
-.inner-header-title {
-	padding-top: 35px;
-	text-indent: 71px;
-}
 
 .navigation-it {
 	display: flex;
@@ -435,7 +437,10 @@ h3{
 }
 
 .navigation-items {
-	padding: 10px;
+	margin-bottom: 45px;
+}
+
+.navigation-items a{
 	font-size: 16px;
 	font-style: normal;
 	font-weight: normal;
@@ -445,15 +450,10 @@ h3{
 
 .block-post {
 	display: flex;
-	justify-content: space-around;
-	padding-top: 44px;
-	
+	justify-content: space-between;	
 }
 
- .abode {
-	 display: flex;
-	 margin-top: 44px;
- }
+ 
 
 
 .butt-control-block {
@@ -509,8 +509,6 @@ h3{
 
 .block-r {
 	margin-top: 31px;
-	margin-left: 72px;
-	margin-right: 72px;
 	margin-bottom: 89px;
  	display: flex;
 	justify-content: space-between;
