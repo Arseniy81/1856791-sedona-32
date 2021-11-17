@@ -869,10 +869,7 @@ right: 0px;
 
 .control-mark:active,
 .control-mark:focus {
-	width: 14.5px;
-	height: 14.5px;
-	background: #FFFFFF;
-	border: 3px solid #83B3D3;
+	
 }
 
 .control-input[type="radio"] + .control-mark {
