@@ -30,7 +30,7 @@ html {
 }
 
 .wrap {
-	padding-left: 71px;
+	padding-left: 66px;
 	padding-right: 71px;
 	
 }
@@ -74,6 +74,7 @@ html {
 
 .navigation-list {
 	display: flex;
+	flex-wrap: wrap;
 	width: 400px;
 	padding-left: 0;
 	list-style: none;
@@ -87,6 +88,7 @@ html {
 
 .navigation-listP {
 	display: flex;
+	flex-wrap: wrap;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 16px;
@@ -561,13 +563,24 @@ h3{
 }
 
 .footer-phone {
+	position: absolute;
 	font-family: "PT Sans", sans-serif;
+	left: 36.5%;
+	top: 37%;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 40px;
 	line-height: 40px;
 	color: #000000;
 	text-decoration: none;
+	
+}
+
+.footer-phone a {
+	margin: 0;
+	padding: 0;
+	
+	
 }
 
 .footer-phone:hover {
@@ -583,10 +596,13 @@ h3{
 	opacity: 0.3;
 }
 
+
+
 .page-footer {
 	font-family: "PT Sans", sans-serif;
 	display: flex;
 	justify-content: space-between;
+	position: relative;
 	align-items: center;
 	color: #FFFFFF;
 	background: #FFFFFF;
@@ -595,11 +611,19 @@ h3{
 }
 
 .footer-social-list {
- display: flex;
- justify-content: space-between;
- width: 200px;
- padding: 0;
- list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+ 	width: 270px;
+ 	padding: 0;
+ 	list-style-type: none;
+}
+
+.footer-social-item {
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+	border: 3px solid #ffffff;
+	border-radius: 10px;
 }
 
 .item-soc {
@@ -1129,6 +1153,25 @@ right: 0px;
 	text-align: center;
 	padding-top: 12px;
 	border: 2px solid #E6E6E6;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+
+.butt-light:hover {
+	border: 2px solid #83B3D3;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+
+.butt-light:active {
+	border: 2px solid #000000;
+	box-sizing: border-box;
+	border-radius: 4px;
+
+}
+
+.butt-light:focus {
+	border: 2px solid #83B3D3;
 	box-sizing: border-box;
 	border-radius: 4px;
 }
