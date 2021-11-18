@@ -565,8 +565,12 @@ h3{
 .footer-phone {
 	position: absolute;
 	font-family: "PT Sans", sans-serif;
+	border: 3px solid #ffffff;
+	border-radius: 10px;
 	left: 36.5%;
-	top: 37%;
+	top: 24%;
+	margin: 3px;
+	padding: 15px;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 40px;
@@ -576,22 +580,19 @@ h3{
 	
 }
 
-.footer-phone a {
-	margin: 0;
-	padding: 0;
-	
-	
-}
-
 .footer-phone:hover {
 	color: #756257;
 }
 
-.footer-phone:focus,
-.footer-phone:active {
+.footer-phone:focus {
+	color: #756257;
 	border: 3px solid #83B3D3;
-	padding: 5px;
 	border-radius: 10px;
+	
+}
+
+
+.footer-phone:active {
 	color: #756257;
 	opacity: 0.3;
 }
@@ -866,12 +867,6 @@ right: 0px;
 	border-radius: 4px;
 }
 
-
-.control-mark:active,
-.control-mark:focus {
-	
-}
-
 .control-input[type="radio"] + .control-mark {
 	border-radius: 50%;
 }
@@ -1064,7 +1059,8 @@ right: 0px;
 	display: grid;
 	grid-template-columns: 1056px 1056px 1056px;
 	grid-template-columns: 1fr;
-	margin-top: 0px;
+	margin: 0;
+	padding: 0;
 	margin-right: 72px;
 	margin-left: 72px;
 	
@@ -1072,16 +1068,15 @@ right: 0px;
 
 .abode {
 	display: grid;
-	grid-template-columns: 200px 600px 100px;
-	gap: 36px;
+	grid-template-columns: 180px 716px 160px;
 	align-items: center;
 	background-color: #ffffff;
 	margin-bottom: 30px;
 }
 
 .img-catalog {
-	text-align: center;
 	padding-top: 5px;
+	padding-left: 0;
 }
 
 .img-catalog img:hover {
@@ -1179,6 +1174,7 @@ right: 0px;
 	font-size: 20px;
 	line-height: 26px;
 	color: #333333; 
+	margin-left: 31px;
 }
 
 .info-abode {
@@ -1211,12 +1207,17 @@ right: 0px;
 }
 
 .rating {
+	font-family: "PT Sans", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 21px;
+	text-align: center;
+	text-transform: uppercase;
 	width: 160px;
-	background: #F2F2F2;
-	border-radius: 4px;
 	padding-top: 9px;
 	padding-bottom: 10px;
-	margin-bottom: 5px;
+	
 }
 
 .buttons {
@@ -1303,17 +1304,17 @@ right: 0px;
 }
 
 .rating-item {
-	margin: auto;
-	text-align: center;
+	margin: 0;
+	width: 160px;
 }
 
 .rating-result{
+	text-align: center;
 	margin-bottom: 63px;
 }
 
 
 .rating-result span {
-	padding: 0;
 	font-size: 18px;
 }
 .rating-result > span:before {
