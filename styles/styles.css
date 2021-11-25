@@ -943,11 +943,8 @@ h3{
 	text-align: center;
 }
 
-.advantages-item {
-	text-align: center;
-}
-
 .advantages-title {
+	position: relative;
 	font-family: "PT Sans", sans-serif;
 	font-size: 24px;
 	line-height: 28px;
@@ -956,8 +953,15 @@ h3{
 	padding-left: 90px;
 	color: #000000;
 	margin: 0;
-	margin-top: 23px;
+	padding-top: 98px;
 	margin-bottom: 0;	
+}
+
+.advantages-title svg {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 
@@ -1094,9 +1098,10 @@ h3{
 	font-family: "PT Sans", sans-serif;
 	font-style: normal;
 	color: #000000;
+	text-align: center;
 	margin: 0;
 	padding-top: 88px;
-    padding-bottom: 57px;
+   padding-bottom: 57px;
    width: 400px;
    min-height: 240px;
    background-color: rgba(131, 179, 211, 0.12);
@@ -1129,34 +1134,31 @@ line-height: 21px;
 text-align: center;
 color: #333333;
 text-align: center;
-padding-right: 92px;
-padding-left: 92px;
+padding-right: 85px;
+padding-left: 85px;
 margin: 0;
 margin-top: 30px;
 }
 
 .advantages-description--text {
 	display: inline-block;
-   width: 250px;
    margin-top: 19px;
-   padding-right: 75px;
-   padding-left: 75px;
+   padding-right: 100px;
+   padding-left: 100px;
 }
 
 .advantages-description--text1 {
 	display: inline-block;
-   width: 250px;
    margin-top: 19px;
-   padding-right: 75px;
-   padding-left: 75px;
+   padding-right: 80px;
+   padding-left: 80px;
 }
 
 .advantages-description--text2 {
 	display: inline-block;
-   width: 250px;
    margin-top: 19px;
-   padding-right: 75px;
-   padding-left: 75px;
+   padding-right: 80px;
+   padding-left: 80px;
 }
 
 .advantages-description--white {
@@ -1623,6 +1625,10 @@ right: 0px;
 	background-position: 50% 50%;
 }
 
+.control-input:focus ~ span {
+	outline: 1px solid #68A2CA;
+}
+
 .control-mark {
 	position: absolute;
 	top: 1px;
@@ -2079,25 +2085,32 @@ right: 0px;
    padding-bottom: 2px;
    padding-left: 15px;
    padding-right: 15px;
-   border: 3px solid transparent;
    box-sizing: border-box;
-   border-radius: 10px;
    cursor: pointer;
 	
 }
 
-.info-abode:hover {
+.info-abode a:hover {
 	color: #756257;
 }
 
-.info-abode:focus{
+.info-abode a:focus{
 	border: 3px solid #83B3D3;
 	box-sizing: border-box;
 	border-radius: 10px;
 }
 
-.info-abode:active {
+.info-abode a:active {
    border: 3px solid #83B3D3;
+   border-radius: 10px;
+}
+
+.info-abode a {
+	text-decoration: none;
+	color: inherit;
+	outline: none;
+	border: 3px solid transparent;
+   box-sizing: border-box;
    border-radius: 10px;
 }
 
@@ -2439,8 +2452,11 @@ right: 0px;
  .number-hotels {
 	 display: flex;
 	 align-items: center;
-	 
+ }
 
+ .number-hot:focus {
+	 outline: 3px solid #83B3D3;
+	 border-radius: 4px;
  }
 
  .number-hot {
